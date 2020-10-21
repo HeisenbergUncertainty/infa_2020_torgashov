@@ -41,10 +41,10 @@ def draw_ball(x, y, r, colour):
 def give_score(points):
     #print and write to file "out" points
     file = open("out.txt", "a")
-    file.write('Name: ' + str(input("Введите имя\n")) + ': ' + str(points) + '\n') 
+    file.write('Name: ' + str(input("Г‚ГўГҐГ¤ГЁГІГҐ ГЁГ¬Гї\n")) + ': ' + str(points) + '\n') 
     file.close()
     
-    print("Score: " + points)
+    print("Score: " + str(points))
 
 
 pygame.display.update()
