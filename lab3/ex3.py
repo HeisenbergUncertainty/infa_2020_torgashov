@@ -22,7 +22,7 @@ def hedge(x, y, k): #рисует ежа с координатами x, y; k - �
     ellipse(screen, (120, 120, 120), (x, y, k*20, k*10))
     ellipse(screen, (150, 150, 150), (x+k*17, y+k*3, k*7, k*4))
     
-    circle(screen, (255, 0, 0), (x+k*20, y+k*4), k//2) #ãëàçà
+    circle(screen, (255, 0, 0), (x+k*20, y+k*4), k//2) #глаза
     circle(screen, (255, 0, 0), (x+k*22, y+k*4), k//2)
     
     
